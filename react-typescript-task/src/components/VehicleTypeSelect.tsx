@@ -5,6 +5,7 @@ import {Select} from "@skbkontur/react-ui";
 export interface VehicleTypeSelectProps {
     value: VehicleType | null;
     onChange: (value: VehicleType | null) => void;
+   
 }
 
 const items: Array<[VehicleType, string]> = [
